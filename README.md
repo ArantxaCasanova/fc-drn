@@ -1,6 +1,8 @@
 # On the refinement of densely connected representation levels for semantic segmentation
 ## Arantxa Casanova, Guillem Cucurull, Michal Drozdzal, Adriana Romero, Yoshua Bengio
 
+[[paper](https://arxiv.org/abs/1804.11332)] [[poster](images/poster_casanova2018.pdf)] [slides] [oral presentation]
+
 This repository contains the Pytorch implementation of the Fully Convolutional DenseResNet (FC-DRN), the architecture for semantic segmentation introduced in the paper **On the refinement of densely connected representation levels for semantic segmentation** presented at the Workshop for Autonomous Driving (WAD) and Women in Computer Vision Workshop(WiCV), both at CVPR2018.
 
 The architecture combines DenseNets and ResNets. This allows the model to exploit the benefits of both residual and dense connectivity patterns, namely: gradient flow, iterative refinement of representations, multi-scale feature combination and deep supervision
